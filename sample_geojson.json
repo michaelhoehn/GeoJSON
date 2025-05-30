@@ -3,41 +3,13 @@
     "features": [
         {
             "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -2.2426,
-                    53.4808
-                ]
-            },
             "properties": {
-                "name": "input point"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -2.2425868,
-                    53.4808274
-                ]
+                "area_code": "CATCHMENT_ISO10000_2025",
+                "area_name": "10 km isoline catchment",
+                "type": "Boundary",
+                "country": "England",
+                "timepoint": 2025
             },
-            "properties": {
-                "name": "start point",
-                "oneWay": false,
-                "tollWay": false,
-                "way": "King Street",
-                "approximation": 3,
-                "categoryName": "",
-                "isolineType": "ISODISTANCE",
-                "isolineValue": "10000.0",
-                "mobility": null,
-                "categoryValue": 0
-            }
-        },
-        {
-            "type": "Feature",
             "geometry": {
                 "type": "MultiPolygon",
                 "coordinates": [
@@ -1134,21 +1106,13 @@
                         ]
                     ]
                 ]
-            },
-            "properties": {
-                "name": "isoline",
-                "type": "ISODISTANCE",
-                "value": 10000,
-                "unit": "meters",
-                "execTime": 3474,
-                "reqId": "A57X"
             }
         }
     ],
     "crs": {
         "type": "name",
         "properties": {
-            "name": "epsg:3857"
+            "name": "urn:ogc:def:crs:EPSG::4326"
         }
     }
 }
